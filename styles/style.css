@@ -1,0 +1,55 @@
+@charset "utf-8";
+.img{
+background-image:url("../images/g.jpg");
+background-repeat: no-repeat;
+height: 600px;
+width: 700px;
+ background-position: center; 
+ background-size: cover; 
+border-radius: 10%;
+
+}
+
+body {
+background-color: DarkCyan;
+}
+
+.split{
+   height: 60%;
+  width: 40%;
+  position: fixed;
+
+  
+  top: 100;
+  text-align: center;
+  padding-top: 20px;
+font-family: cursive;
+font-size: 20px;
+text-align: -webkit-right;
+
+}
+
+.right {
+  right: 0;
+  background-color: DarkCyan;
+}
+
+
+.border{
+border: 1px solid gray;
+  padding: 60px;
+
+}
+
+.menu{
+text-shadow: 2px 2px black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
